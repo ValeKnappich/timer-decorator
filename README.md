@@ -11,7 +11,7 @@ pip install timer-decorator
 ## Example
 
 ```python
-from timer_decorator.Timer import Timer
+from timer_decorator import Timer
 
 my_mean = lambda l: sum(l) / len(l)
 
