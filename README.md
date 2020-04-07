@@ -2,10 +2,16 @@
 
 Timer decorator to easily measure runtime of your functions with an api to include your own summary functions
 
+## Install
+
+```bash
+pip install timer-decorator
+```
+
 ## Example
 
 ```python
-from timer-decorator import Timer
+from timer-decorator.Timer import Timer
 
 my_mean = lambda l: sum(l) / len(l)
 
